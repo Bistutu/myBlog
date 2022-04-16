@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>How to reduce the repetition rate of Ketangpai ?</title>
+      <link href="/2022/04/16/How-to-reduce-the-repetition-rate-of-Ketangpai/"/>
+      <url>/2022/04/16/How-to-reduce-the-repetition-rate-of-Ketangpai/</url>
+      
+        <content type="html"><![CDATA[<h2 id="如何降低课堂派的重复率？"><a href="#如何降低课堂派的重复率？" class="headerlink" title="如何降低课堂派的重复率？"></a>如何降低课堂派的重复率？</h2><span id="more"></span><hr><p>&emsp;&emsp;学校平时有一些课要求写3000字的论文，但是我不想写，想从网上直接复制又怕查重率太高被退回，于是我就研究了一下课堂派的查重规则。</p><p><strong>查重规则介绍：</strong><br>&emsp;&emsp;课堂派会把你的文章按句子进行拆分，然后把你写的每一条句子与你们班的其他人写的每一条句子作对比，然后计算重复率。以下是我在某一次作业中，课堂派认为我与其他人重复的地方，可以明显看到课堂派按照句子进行查重，这里用到了Hash算法。<br><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h1bnwzr2svj20u0108q5b.jpg" alt="8121650098973_.pic" style="zoom:50%;" /></p><p><strong>解决方法：</strong><br>&emsp;&emsp;只要你的每一条句子都跟其他人不一样，课堂派就查不出来。具体可以在每一条句子中随机插入一个“的”字，这样计算出来的Hash值就不会相同。我按照这种方法成功的把查重率从90%多降到了4%。<br><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h1bo5wvc7dj210009u0ta.jpg" alt="image-20220416170214209" style="zoom:50%;" /></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Experience of Apple ecology</title>
       <link href="/2022/04/07/Experience-of-Apple-ecology/"/>
       <url>/2022/04/07/Experience-of-Apple-ecology/</url>
