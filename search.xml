@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>write notes with markdown</title>
+      <link href="/2022/05/05/write-notes-with-markdown/"/>
+      <url>/2022/05/05/write-notes-with-markdown/</url>
+      
+        <content type="html"><![CDATA[<h2 id="用-Markdown-写笔记"><a href="#用-Markdown-写笔记" class="headerlink" title="用 Markdown 写笔记"></a>用 Markdown 写笔记</h2><span id="more"></span><hr><p>&emsp;&emsp;近些日子来，我开始习惯在电脑上面使用 Markdown 语法进行笔记的记录，逐渐抛弃了以往的记笔记方式：在纸上记笔记、在 ipad上面使用 GoodNotes 5 记笔记。我为什么要抛弃以往的记笔记方式呢？在我看来，以往记笔记的方式主要存在以下弊端：  </p><ul><li>手写体不易识别、复习效率低</li><li>知识记录杂乱无章</li><li>多设备切换麻烦</li><li>与他人分享知识较难  </li></ul><p><strong>Markdown 语法是什么？</strong><br>&emsp;&emsp;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的 HTML 文档。简单来说它就是一种易懂的计算机语言，可以被用来写笔记、博客等。<br>&emsp;&emsp;自从我采用了 Markdown 语法，上述问题已经迎刃而解。在这个特别长的寒假以来我用 Markdown 语法主要写了四篇笔记，分别如下：  </p><ul><li><a href="https://thinkstu.blog.csdn.net/article/details/124577378?spm=1001.2014.3001.5502">Java IO流（四千字）</a></li><li><a href="https://thinkstu.blog.csdn.net/article/details/124591762?spm=1001.2014.3001.5502">Linux笔记（一万四千字）</a></li><li><a href="https://thinkstu.blog.csdn.net/article/details/124591737?spm=1001.2014.3001.5502">Docker笔记（八千字）</a></li><li><a href="https://thinkstu.blog.csdn.net/article/details/124591648">Spring Boot笔记（一万九千字）</a>  <strong>效果图</strong>   <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h1xlt9kbilj20y00u0n2z.jpg" alt="image-20220505162317965" style="zoom:50%;" /></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>How to reduce the repetition proportation</title>
       <link href="/2022/04/16/How-to-reduce-the-repetition-rate-of-Ketangpai/"/>
       <url>/2022/04/16/How-to-reduce-the-repetition-rate-of-Ketangpai/</url>
