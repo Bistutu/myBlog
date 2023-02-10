@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"chenmiankang.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="编程道路选型">
+<meta property="og:type" content="article">
+<meta property="og:title" content="options of programing language">
+<meta property="og:url" content="http://chenmiankang.com/posts/1153667313/index.html">
+<meta property="og:site_name" content="陈绵康的博客">
+<meta property="og:description" content="编程道路选型">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/dcae359b82b8582cd864595fc3baed14.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/007e6543e59b4043cf6f567b9183220d.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/ec8428bb1b1521181ad216cb911b2f59.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/058261231194ab00a0c3aaf5cacc070b.png">
+<meta property="article:published_time" content="2022-05-19T03:47:24.000Z">
+<meta property="article:modified_time" content="2022-09-18T09:38:39.090Z">
+<meta property="article:author" content="ThinkStu">
+<meta property="article:tag" content="陈绵康,陈绵康的博客,ThinkStu">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/img_convert/dcae359b82b8582cd864595fc3baed14.png">
+
+<link rel="canonical" href="http://chenmiankang.com/posts/1153667313/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>options of programing language | 陈绵康的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">陈绵康的博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">ThinkStu</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>时间轴</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://chenmiankang.com/posts/1153667313/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="http://chenmiankang.com/images/avatar.png">
+      <meta itemprop="name" content="ThinkStu">
+      <meta itemprop="description" content="陈绵康的博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="陈绵康的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          options of programing language
+        </h1>
+
+        <div class="post-meta">
+
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-05-19 11:47:24" itemprop="dateCreated datePublished" datetime="2022-05-19T11:47:24+08:00">2022-05-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-09-18 17:38:39" itemprop="dateModified" datetime="2022-09-18T17:38:39+08:00">2022-09-18</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="编程道路选型"><a href="#编程道路选型" class="headerlink" title="编程道路选型"></a>编程道路选型</h2><span id="more"></span>
+<hr>
+<p>&emsp;&emsp;关于编程语言的选择，我一直认为你选择了什么样的编程语言，就会在以后大概率走上什么样的道路。如果你一开始就把编程语言选错了，你将会走许多弯路，最后不得不回到“正确的道路”。说到这，可能会有人反驳说：“语言只是工具”！确实，语言只是工具，但是你有见到过用 Java 搞科研、用 C 写网站后端的人吗？大概率是没有。<br>&emsp;&emsp;在我的学习历程中，我始终觉得许多人（包括我在内）在一开始并没有对计算机学科建立起比较全面的认识，导致在学习时经常充满迷茫，我该学什么好？这个我需不需要学？我学了这个以后有什么用？带着这些迷茫，一部分人会就此放弃、倒在了入门之前；而另一部分人则会不知所措的学习，看似学过许多技术，但是却始终写不出一个能用的程序。<br>&emsp;&emsp;在接下来文章中，我会就一些<strong>常见</strong>的编程语言进行讲述，在每一种编程语言的论述中，我都会先讲述它能干什么，然后讲述怎么学习，最后讲述在学习该编程语言的同时你还需要学习哪些内容。  </p>
+<hr>
+<p>一、<strong>Java语言</strong>  </p>
+<p>&emsp;&emsp;选择了 Java ，也就相当于你选择了在本科毕业之后直接工作。Java 在现阶段最主要的应用就是企业级开发与安卓程序开发。Java并不适合科研，对于想以后考研（从事科研领域）的你没有太大帮助，反而会耽误你学习 Python，而 Python 才是现阶段科研领域所使用的语言。  </p>
+<p><strong>1） 企业级开发</strong>：企业级开发也就是在企业工作，需要一定的技术功底，但是现在校园里大多数人还停留在 Java 的基础阶段，毕业即失业。众所周知，几乎所有的大型网站与软件都拥有后台管理系统，我们的任务就是为前端程序编写后台管理系统。选择了这条路，你会慢慢接触到许多以前在学校从来没有见到过的技术框架、云原生技术（直接在云上开发应用、部署应用），不要指望学校会来教你，学校并不会。主流的开发软件是 IDEA，而不是 Eclipse。<br><img src="https://img-blog.csdnimg.cn/img_convert/dcae359b82b8582cd864595fc3baed14.png"><br><strong>2）安卓程序开发</strong>：虽然 Java 也可以用于安卓开发，但是近几年出现新语言 Kotlin 正在慢慢的侵蚀 Java 在安卓开发领域的份额。总体来说，Kotlin 比 Java 更适合安卓开发，不过你并不需要为此焦虑，因为 Kotlin这门语言写起来跟 Java 很像，甚至有人把 Kotlin 称为“另一门 Java 语言”。我的建议是在学习完 Java 之后可以试着入门 Kotlin，把握住安卓未来的发展方向。<br><img src="https://img-blog.csdnimg.cn/img_convert/007e6543e59b4043cf6f567b9183220d.png"><br>&emsp;&emsp;当然，在 Java领域要学习的东西不只这么多，以上只是主要的学习线路，其他你还要学习的知识包括但不限于：Git、HTML/CSS/JavaScript、HTTP协议、TCP/IP协议、Linux、mysql、Mybatis、redis、mongoDB、Nginx、RocketMQ、Docker、Kubernetes。  </p>
+<hr>
+<p>二、<strong>Python语言</strong><br>&emsp;&emsp;Python 是一把科研的利器，对于以后只想考研的同学大有裨益。在我看来，Python在现阶段主要应用领域为科研与大数据分析，少部分应用在 web 应用开发、游戏开发。主流的开发软件是 PyCharm。<br><strong>1） 科研</strong>：科研 = 从事研究工作，这是想考研的同学避不过去的一道坎。Python 近些年来在人工智能领域大放异彩，自然也成为了从事科研人员的首选语言。人工智能研究包括自然语言处理、物联网开发、自动化推理等，这其中会涉及到很多算法（数学），对于没有兴趣的小伙伴可能会觉得异常痛苦，有兴趣的则乐在其中。在这里，由于我不熟悉科研领域的相关学习路线，所以不给出直接的学习路线建议。<br><strong>2） 大数据分析</strong>：大数据分析主要涉及到爬虫与数据分析。与科研不同，这条道路未来的方向是就业，主要从事企业级数据分析与自动化流程开发等。<br><img src="https://img-blog.csdnimg.cn/img_convert/ec8428bb1b1521181ad216cb911b2f59.png"><br>&emsp;&emsp;当然，在 Python 领域要学习的东西也不只这么多，其他你还要学习的知识包括但不限于：Git、HTML/CSS/JavaScript、HTTP协议、TCP/IP协议、Linux（重点)、mysql、mongoDB、网站爬虫、抓包。  </p>
+<hr>
+<p>三、<strong>C/C++/C#<strong>：<br>&emsp;&emsp;C、C++ 与 C# 其实是三门不同的语⾔，但可以把 C++ 与 C# 看作是 C 语言的两个不同分支。现阶段 <strong>C</strong> 的主要应用领域在于底层开发，针对操作系统层级；而 <strong>C++</strong> 不仅在底层开发有所应用，而且在游戏开发领域也是领头羊，对于以后想从事游戏开发的小伙伴，C++ 绝对是你的首选；</strong>C#</strong> 在现阶段的主要应用领域是桌面软件开发，也就是为电脑开发软件，目前国内主攻这一方向的公司较少，大多数是外国公司。  </p>
+<hr>
+<p>四、<strong>JavaScript语言</strong>：<br>&emsp;&emsp;JavaScript 跟 Java 两者名字虽然相似，但其实是两门不同的语言，关于他俩之间的具体关系，这里不作过多介绍。JavaScript 目前的应用领域很广，既可以作前端开发（如网页开发、小程序），也可以作后端开发（如 NodeJS），是当下开发领域比较活跃的一门语言。<br>&emsp;&emsp;学习 JavaScript 会首先接触到三大组件“ HTML/CSS/JavaScript ”，这三门技术合在一起就是整个前端开发的基础、重中之重。三大组件入门很容易，但是想要精通却并不容易，尤其是在前端开发中会涉及到许多关于“美”的定义，需要开发人员具备一定的审美能力。在这里，你将接触到像 Vue.js、React这样好用的框架，主流的开发软件是 VScode、WebStorm。<br><img src="https://img-blog.csdnimg.cn/img_convert/058261231194ab00a0c3aaf5cacc070b.png">   </p>
+<hr>
+<p>&emsp;&emsp;<strong>总结</strong>：Java 适合企业级后端开发与安卓程序开发，Python 适合科研与大数据分析，C/C++ 适合底层开发与游戏开发，C# 适合桌面级软件开发，JavaScript 适合前端开发（网页、小程序类）与轻量级的后端开发。  </p>
+
+    </div>
+
+    
+    
+    
+
+
+   <div>
+     <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">
+        -- 文章结束 --
+        </div>
+    
+</div>
+   </div>
+ 
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/2216914914/" rel="prev" title="revelation">
+      <i class="fa fa-chevron-left"></i> revelation
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/3095901163/" rel="next" title="purpose">
+      purpose <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E7%A8%8B%E9%81%93%E8%B7%AF%E9%80%89%E5%9E%8B"><span class="nav-number">1.</span> <span class="nav-text">编程道路选型</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ThinkStu"
+      src="http://chenmiankang.com/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ThinkStu</p>
+  <div class="site-description" itemprop="description">陈绵康的博客</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">44</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Bistutu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Bistutu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:1914493943@qq.com" title="E-Mail → mailto:1914493943@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">Total 22.2k words</span>
+</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+  <script>
+    (function(){
+      var canonicalURL, curProtocol;
+      //Get the <link> tag
+      var x=document.getElementsByTagName("link");
+		//Find the last canonical URL
+		if(x.length > 0){
+			for (i=0;i<x.length;i++){
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+					canonicalURL=x[i].href;
+				}
+			}
+		}
+    //Get protocol
+	    if (!canonicalURL){
+	    	curProtocol = window.location.protocol.split(':')[0];
+	    }
+	    else{
+	    	curProtocol = canonicalURL.split(':')[0];
+	    }
+      //Get current URL if the canonical URL does not exist
+	    if (!canonicalURL) canonicalURL = window.location.href;
+	    //Assign script content. Replace current URL with the canonical URL
+      !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
